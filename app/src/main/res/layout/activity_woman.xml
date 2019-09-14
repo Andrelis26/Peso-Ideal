@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="295dp"
+            android:layout_height="283dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="116dp"
+            android:background="@drawable/ic_esquinaregistro_01" />
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="220dp"
+            android:layout_height="177dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="85dp"
+            android:background="@drawable/ic_girlbottom_01" />
+
+    <TextView
+            android:id="@+id/alturaedad"
+            android:layout_width="123dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@+id/editEdad"
+            android:text="Edad :"
+            android:textColor="#8427D6"
+            android:textSize="20dp" />
+
+    <EditText
+            android:id="@+id/editEdad"
+            android:layout_width="139dp"
+            android:layout_height="47dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="13dp"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="55dp"
+            android:textAlignment="center"
+            android:background="@drawable/edit_text"
+            android:hint="   0"
+            android:inputType="number" />
+
+    <TextView
+            android:id="@+id/alturatext"
+            android:layout_width="124dp"
+            android:layout_height="44dp"
+            android:layout_above="@+id/textViewIdeal"
+            android:layout_below="@+id/imageView1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="72dp"
+            android:layout_toStartOf="@+id/EditAltura"
+            android:text="Altura :"
+            android:textColor="#8427D6"
+            android:textSize="20dp" />
+
+
+    <EditText
+            android:id="@+id/EditAltura"
+            android:layout_width="139dp"
+            android:layout_height="49dp"
+            android:layout_below="@+id/editEdad"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="55dp"
+            android:background="@drawable/edit_text"
+            android:hint="    Cm"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    <Button
+            android:id="@+id/btncalcular"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EditAltura"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="135dp"
+            android:background="@drawable/custom_buttonwoman"
+            android:text="Calcular"
+            android:textColor="#B097FF" />
+
+    <TextView
+            android:id="@+id/textViewIdeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btncalcular"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="54dp"
+            android:background="@drawable/view_results"
+            android:text="Peso Ideal"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+
+    <TextView
+            android:id="@+id/TextResult"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_below="@+id/textViewIdeal"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/view_result2"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+    <ImageView
+            android:layout_width="268dp"
+            android:layout_height="203dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="137dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/ic_linealescirculosregistro_01" />
+
+    <Button
+            android:id="@+id/home"
+            android:layout_width="106dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="302dp"
+            android:background="@mipmap/inicio_oficial_foreground" />
+
+
+</RelativeLayout>
